@@ -82,7 +82,7 @@ console.log(typeof c);
 
 let name = prompt("Твоє ім'я?");
 let midname = prompt("По-батькові?");
-let year = prompt("Скільки тобі років");
+let year = +prompt("Скільки тобі років");
 
 let info = name + ' ' + midname + ' ' + year;
 console.log(info);
