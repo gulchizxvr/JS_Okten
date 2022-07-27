@@ -1,6 +1,5 @@
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-let array1 = [ 1, 'one', 2 , true, 3, 'thirty', 7 , false, 9, 'ten'
-]
+let array1 = [ 1, 'one', 2 , true, 3, 'thirty', 7 , false, 9, 'ten']
 console.log(array1[0]);
 console.log(array1[1]);
 console.log(array1[2]);
@@ -69,6 +68,7 @@ let book13={
         {name: 'Hugo', age: 75},
         ]
 };
+
 // Додатково
 console.log(book11.title);
 console.log(book12["pageCount"]);
