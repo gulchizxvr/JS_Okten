@@ -1,0 +1,21 @@
+.box {
+    margin: 0 auto;
+    width: 500px;
+    justify-content: space-between;
+    row-gap: 50px;
+
+}
+.card{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+img{
+    width: 200px;
+}
+
+.fl_wr {
+    display: flex;
+    flex-wrap: wrap;
+}
