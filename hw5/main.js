@@ -1,11 +1,11 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
+debugger
 function areaOfSquare(a, b) {
-    x = a * b;
+     x = a * b;
     return x;
 }
-
-areaOfSquare(3, 4);
-console.log(x);
+let res = areaOfSquare(3, 4)
+console.log(res);
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 
@@ -14,17 +14,16 @@ let areaOfCircle = function (r) {
     return result;
 };
 
-areaOfCircle(4);
-console.log(result.toFixed(3));
+console.log(areaOfCircle(4).toFixed(3));
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
 
 let areaofCylinder = (h, r) => {
     resultC = 2 * Math.PI * r  * (r + h)
-    return resultC
+    return resultC;
 }
-areaofCylinder(2, 5);
-console.log(resultC.toFixed(3));
+
+console.log(areaofCylinder(2, 5));
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
 function print(array) {
@@ -150,7 +149,6 @@ let sum_number = function (array) {
     for (const arrayElement of array) {
         total += arrayElement
     }
-    console.log(total);
+    return total;
 };
-
-sum_number([4, 7, 3, -10, -100, 100]);
+console.log(sum_number([4, 7, 3, -10, -100, 100]));
