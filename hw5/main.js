@@ -9,20 +9,12 @@ console.log(res);
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 
-let areaOfCircle = function (r) {
-    result = Math.PI * Math.pow( r, 2);
-    return result;
-};
-
-console.log(areaOfCircle(4).toFixed(3));
+let areaOfCircle = (r) =>  Math.PI * Math.pow( r, 2);
+console.log(areaOfCircle(4));
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
 
-let areaofCylinder = (h, r) => {
-    resultC = 2 * Math.PI * r  * (r + h)
-    return resultC;
-}
-
+let areaofCylinder = (h, r) => 2 * Math.PI * r  * (r + h);
 console.log(areaofCylinder(2, 5));
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
