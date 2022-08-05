@@ -1,5 +1,4 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-debugger
 function areaOfSquare(a, b) {
      x = a * b;
     return x;
