@@ -127,10 +127,10 @@ let minimum_number = function (array) {
             first_min = arrayElement;
         }
     }
-    console.log(first_min)
+    return first_min;
 };
 
-minimum_number([1, -4, 5, 9, 10, -100]);
+console.log(minimum_number([1, -4, 5, 9, 10, -100]));
 
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
