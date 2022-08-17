@@ -159,7 +159,7 @@ let arr = [
 class Prince extends Popelushka {
     constructor(name,age,size) {
         super(name,age,size);
-        this.search= function () {
+        this.search= function (arr) {
             for (const girl of arr) {
                 if (girl.size === this.size){
                     console.log(girl);
@@ -171,7 +171,7 @@ class Prince extends Popelushka {
 }
 
 prince = new Prince('Kolya', 30, 41)
-prince.search()
+prince.search(arr)
 
 let popelushka = arr.find(value => value.size === prince.size);
 console.log(popelushka);
