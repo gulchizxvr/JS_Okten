@@ -1,0 +1,59 @@
+*{
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_person {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    max-width: 1000px;
+}
+img {
+    width: 300px;
+
+}
+
+.text{
+    background: grey;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.container_card{
+    width: 600px;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.monthDuration{
+    width: 140px;
+
+}
+.hourDuration {
+    width: 450px;
+
+}
+.modules{
+    width: 100%;
+
+}
+.border{
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.card{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
