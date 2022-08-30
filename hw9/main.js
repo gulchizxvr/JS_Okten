@@ -181,6 +181,7 @@ document.body.append(container_card);
 // рекурсія, щоб добавити класс border(що створює борбер) кожному елементу
 function foo(elements) {
     let childrenArray = elements.children
+    console.log(childrenArray);
     if (childrenArray.length !== 0){
         for (const child_element of childrenArray) {
             child_element.classList.add('border')
