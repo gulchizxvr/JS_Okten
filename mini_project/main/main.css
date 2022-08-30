@@ -1,5 +1,6 @@
 
 .container{
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     width: 700px;
